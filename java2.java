@@ -13,7 +13,9 @@ public class java2{
         System.out.println("KDVsiz fiyat: " + tutar);
         System.out.println("KDVli fiyat: " + (tutar + (tutar*sonuc)));
         System.out.println("KDV tutarı: " + ((tutar + (tutar*sonuc)) - tutar ));
-
-
+        int var2 = 1;
+        ++var2;
+        System.out.println(var2);
+        input.close();
     }
 }
